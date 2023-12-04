@@ -134,35 +134,35 @@ export const themeSetting = (mode) => {
             mode: mode,
             ...(mode === 'dark'
             ? {
-                //dark color/mode values
+                //dark palette/mode values 
                 primary:{
-                    main: colors.primary[500],
+                    main: color.primary[500],
                 },
                 secondary:{
-                    main: colors.greenAccent[500],
+                    main: color.greenAccent[500],
                 },
                 natural:{
-                    dark: colors.grey[700],
-                    main: colors.grey[500],
-                    light: colors.grey[100],
+                    dark: color.grey[700],
+                    main: color.grey[500],
+                    light: color.grey[100],
                 },
                 background:{ 
-                    default: colors.primary[500],
+                    default: color.primary[500],
                 },
             }
             : {
-                // light color/mode values
+                // light palette/mode values
 
                 primary:{
-                    main: colors.primary[100],
+                    main: color.primary[100],
                 },
                 secondary:{
-                    main: colors.greenAccent[500],
+                    main: color.greenAccent[500],
                 },
                 natural:{
-                    dark: colors.grey[700],
-                    main: colors.grey[500],
-                    light: colors.grey[100],
+                    dark: color.grey[700],
+                    main: color.grey[500],
+                    light: color.grey[100],
                 },
                 background:{ 
                     default: '#fcfcfc',
@@ -170,10 +170,10 @@ export const themeSetting = (mode) => {
             }),
         },
         typography: {
-            fontFamily: ['Source Sans Pro', 'sans-serif'].join(','),
+            fontFamily: ["Source Sans Pro", "sans-serif"].join(','),
             fontSize: 12,
             h1:{
-                fontFamily: ['Source Sans Pro', 'sans-serif'].join(','),
+                fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
                 fontSize: 40,
             },
             h2:{
