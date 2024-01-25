@@ -31,7 +31,7 @@ const TopBar = () => {
 
             {/* Icons Button */}
             <Box display='flex'>
-                <IconButton onClick={colorMode.toggleColorMode}> /* react context function that allows us to change the color */
+                <IconButton onClick={colorMode.toggleColorMode}> {/* react context function that allows us to change the color */}
                 {theme.palette.mode === 'dark' ? (
                     <DarkModeOutlinedIcon />
                 )
